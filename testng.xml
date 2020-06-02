@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Searchfunctionality" parallel ="tests" thread-count = "2">
+  <test name="BasicSearchFunctionality">
+     <classes>
+       <class name="SearchFunctionality.kodo.BasicSearchFunctionality"/>
+     </classes>
+  </test>
+  <test  name="ageValidation">
+     <classes>
+       <class name="SearchFunctionality.kodo.AgeValidation"/>
+     </classes>
+  </test>
+  <test  name="UnlistedProduct">
+     <classes>
+       <class name="SearchFunctionality.kodo.UnlistedProduct"/>
+     </classes>
+  </test>
+  <test  name="PrintValidation">
+     <classes>
+       <class name="SearchFunctionality.kodo.PrintValidataion"/>
+     </classes>
+  </test>
+  <test  name="SessionValidation">
+     <classes>
+       <class name="SearchFunctionality.kodo.SessionValidation"/>
+     </classes>
+  </test>
+  <test  name="SynonymsValidation">
+     <classes>
+       <class name="SearchFunctionality.kodo.SynonymsValidation"/>
+     </classes>
+  </test>
+  <test  name="ColourValidation">
+     <classes>
+       <class name="SearchFunctionality.kodo.ColourValidation"/>
+     </classes>
+  </test>
+  <test  name="PluralValidation">
+     <classes>
+       <class name="SearchFunctionality.kodo.PluralValidation"/>
+     </classes>
+  </test>
+  <test  name="RelevantProduct">
+     <classes>
+       <class name="SearchFunctionality.kodo.RelevantProduct"/>
+     </classes>
+  </test>
+  <test  name="ProductCountValidation">
+     <classes>
+       <class name="SearchFunctionality.kodo.ProductCountValidation"/>
+     </classes>
+  </test>
+  <test  name="IncorrectInput">
+     <classes>
+       <class name="SearchFunctionality.kodo.IncorrectInput"/>
+     </classes>
+  </test>
+  <test  name="GenderValidation">
+     <classes>
+       <class name="SearchFunctionality.kodo.GenderValidation"/>
+     </classes>
+  </test>
+</suite> <!-- Suite -->

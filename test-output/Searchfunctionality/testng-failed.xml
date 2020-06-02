@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Searchfunctionality]">
+  <test thread-count="5" name="ageValidation(failed)">
+    <classes>
+      <class name="SearchFunctionality.kodo.AgeValidation">
+        <methods>
+          <include name="broserclose"/>
+          <include name="browserinitiate"/>
+          <include name="womenDress"/>
+        </methods>
+      </class> <!-- SearchFunctionality.kodo.AgeValidation -->
+    </classes>
+  </test> <!-- ageValidation(failed) -->
+  <test thread-count="5" name="UnlistedProduct(failed)">
+    <classes>
+      <class name="SearchFunctionality.kodo.UnlistedProduct">
+        <methods>
+          <include name="unlistedproduct"/>
+          <include name="afterEachMethod"/>
+          <include name="broserclose"/>
+          <include name="browserinitiate"/>
+        </methods>
+      </class> <!-- SearchFunctionality.kodo.UnlistedProduct -->
+    </classes>
+  </test> <!-- UnlistedProduct(failed) -->
+  <test thread-count="5" name="PrintValidation(failed)">
+    <classes>
+      <class name="SearchFunctionality.kodo.PrintValidataion">
+        <methods>
+          <include name="broserclose"/>
+          <include name="browserinitiate"/>
+          <include name="validation"/>
+        </methods>
+      </class> <!-- SearchFunctionality.kodo.PrintValidataion -->
+    </classes>
+  </test> <!-- PrintValidation(failed) -->
+  <test thread-count="5" name="SessionValidation(failed)">
+    <classes>
+      <class name="SearchFunctionality.kodo.SessionValidation">
+        <methods>
+          <include name="SummerDress"/>
+          <include name="broserclose"/>
+          <include name="browserinitiate"/>
+          <include name="winterDress"/>
+        </methods>
+      </class> <!-- SearchFunctionality.kodo.SessionValidation -->
+    </classes>
+  </test> <!-- SessionValidation(failed) -->
+  <test thread-count="5" name="SynonymsValidation(failed)">
+    <classes>
+      <class name="SearchFunctionality.kodo.SynonymsValidation">
+        <methods>
+          <include name="validation"/>
+          <include name="broserclose"/>
+          <include name="browserinitiate"/>
+          <include name="afterEachMethod"/>
+        </methods>
+      </class> <!-- SearchFunctionality.kodo.SynonymsValidation -->
+    </classes>
+  </test> <!-- SynonymsValidation(failed) -->
+  <test thread-count="5" name="ColourValidation(failed)">
+    <classes>
+      <class name="SearchFunctionality.kodo.ColourValidation">
+        <methods>
+          <include name="broserclose"/>
+          <include name="browserinitiate"/>
+          <include name="colour"/>
+        </methods>
+      </class> <!-- SearchFunctionality.kodo.ColourValidation -->
+    </classes>
+  </test> <!-- ColourValidation(failed) -->
+  <test thread-count="5" name="PluralValidation(failed)">
+    <classes>
+      <class name="SearchFunctionality.kodo.PluralValidation">
+        <methods>
+          <include name="broserclose"/>
+          <include name="browserinitiate"/>
+          <include name="dresses"/>
+          <include name="tshirts"/>
+        </methods>
+      </class> <!-- SearchFunctionality.kodo.PluralValidation -->
+    </classes>
+  </test> <!-- PluralValidation(failed) -->
+  <test thread-count="5" name="RelevantProduct(failed)">
+    <classes>
+      <class name="SearchFunctionality.kodo.RelevantProduct">
+        <methods>
+          <include name="broserclose"/>
+          <include name="browserinitiate"/>
+          <include name="afterEachMethod"/>
+          <include name="correctName"/>
+        </methods>
+      </class> <!-- SearchFunctionality.kodo.RelevantProduct -->
+    </classes>
+  </test> <!-- RelevantProduct(failed) -->
+  <test thread-count="5" name="ProductCountValidation(failed)">
+    <classes>
+      <class name="SearchFunctionality.kodo.ProductCountValidation">
+        <methods>
+          <include name="hoverWomen"/>
+          <include name="afterEachMethod"/>
+          <include name="hoverDresses"/>
+          <include name="broserclose"/>
+          <include name="clickTShirts"/>
+          <include name="searchElement"/>
+          <include name="browserinitiate"/>
+          <include name="clickWomen"/>
+          <include name="hoverAndEnterProduct"/>
+          <include name="clickDress"/>
+        </methods>
+      </class> <!-- SearchFunctionality.kodo.ProductCountValidation -->
+    </classes>
+  </test> <!-- ProductCountValidation(failed) -->
+  <test thread-count="5" name="IncorrectInput(failed)">
+    <classes>
+      <class name="SearchFunctionality.kodo.IncorrectInput">
+        <methods>
+          <include name="afterEachMethod"/>
+          <include name="incorrectdata"/>
+          <include name="broserclose"/>
+          <include name="browserinitiate"/>
+        </methods>
+      </class> <!-- SearchFunctionality.kodo.IncorrectInput -->
+    </classes>
+  </test> <!-- IncorrectInput(failed) -->
+  <test thread-count="5" name="GenderValidation(failed)">
+    <classes>
+      <class name="SearchFunctionality.kodo.GenderValidation">
+        <methods>
+          <include name="broserclose"/>
+          <include name="womenDress"/>
+          <include name="browserinitiate"/>
+        </methods>
+      </class> <!-- SearchFunctionality.kodo.GenderValidation -->
+    </classes>
+  </test> <!-- GenderValidation(failed) -->
+</suite> <!-- Failed suite [Searchfunctionality] -->

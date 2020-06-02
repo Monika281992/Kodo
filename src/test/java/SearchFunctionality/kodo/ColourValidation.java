@@ -6,12 +6,21 @@ package SearchFunctionality.kodo;
 
 
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import ElementsList.SearchElements;
+import elementsList.SearchElements;
 
 public class ColourValidation extends Base {
 	
@@ -19,6 +28,7 @@ public class ColourValidation extends Base {
 	public void colour ( String colours) throws InterruptedException {
 		 String expectedalert = "No results were found for your search \"" + colours + "\"" ;
 			SearchElements se = new SearchElements(driver);
+			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			se.SearchBar().clear();
 			se.SearchBar().sendKeys(colours);
 			se.SubmitButton().submit();
@@ -26,15 +36,15 @@ public class ColourValidation extends Base {
 			System.out.println(productcount);
 			if (productcount > 0) {
 			if (se.blackColour().isDisplayed()) {
-				Assert.assertTrue(se.blackColour().isDisplayed());
+				AssertJUnit.assertTrue(se.blackColour().isDisplayed());
 			} else if (se.yellowColour().isDisplayed()) {
-				Assert.assertTrue(se.yellowColour().isDisplayed());
+				AssertJUnit.assertTrue(se.yellowColour().isDisplayed());
 			  
 			}
 			}else {
 				Thread.sleep(2000);
 				String actualalert = se.AlertMessage().getText();
-				Assert.assertEquals(actualalert, expectedalert);
+				AssertJUnit.assertEquals(actualalert, expectedalert);
 			}
 			
 			

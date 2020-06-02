@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SearchFunctionality.kodo.SynonymsValidation">
+      <class name="SearchFunctionality.kodo.ProductCountValidation">
         <methods>
-          <include name="validation" invocation-numbers="0 2"/>
+          <include name="afterEachMethod"/>
           <include name="broserclose"/>
           <include name="browserinitiate"/>
-          <include name="afterEachMethod"/>
+          <include name="hoverAndEnterProduct"/>
         </methods>
-      </class> <!-- SearchFunctionality.kodo.SynonymsValidation -->
+      </class> <!-- SearchFunctionality.kodo.ProductCountValidation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -3,12 +3,21 @@
 
 package SearchFunctionality.kodo;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import ElementsList.SearchElements;
+import elementsList.SearchElements;
 
 public class GenderValidation extends Base {
 	String productContainer = "//div[@class='product-container']//div[2]//h5//a";
@@ -17,17 +26,15 @@ public class GenderValidation extends Base {
 	public void womenDress() throws InterruptedException {
 		
 		SearchElements se = new SearchElements(driver);
-		Thread.sleep(2000);
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		se.Dresses().click();
-		Thread.sleep(5000);
 		int itemcount = driver.findElements(By.xpath(productContainer)).size();
 		//System.out.println(itemcount);
 		se.SearchBar().sendKeys("women dress");
 		se.SubmitButton().submit();
-		Thread.sleep(5000);
 		int productcount = driver.findElements(By.xpath(productContainer)).size();
 		//System.out.println(productcount);
-		Assert.assertEquals(productcount, itemcount);
+		AssertJUnit.assertEquals(productcount, itemcount);
 		 }
 	
 }

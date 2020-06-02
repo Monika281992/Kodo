@@ -20,12 +20,7 @@ import elementsList.SearchElements;
  
 public class AgeValidation extends Base
 {
-	/*@Test
-	public void test1() {
-	System.out.println("Validate product search on base of age1");}
-	@Test
-	public void test2() {
-	System.out.println("Validate product search on base of age 2");}*/
+
 	String productContainer = "//div[@class='product-container']//div[2]//h5//a";
 
 	@Test(dataProvider = "age")     

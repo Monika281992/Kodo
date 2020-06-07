@@ -20,10 +20,11 @@ import org.testng.annotations.Test;
 import elementsList.SearchElements;
 
 public class IncorrectInput extends Base{
+	SearchElements se = new SearchElements(driver);
 
 	@Test (dataProvider= "incorrectdata")
 	public void incorrectdata (String incorrectdata ) throws IOException, InterruptedException {
-		SearchElements se = new SearchElements(driver);
+		
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		se.SearchBar().clear();
 		se.SearchBar().sendKeys(incorrectdata);

@@ -22,10 +22,10 @@ import elementsList.SearchElements;
 
 public class UnlistedProduct extends Base 
 {
-
+	SearchElements se = new SearchElements(driver);
 	@Test (dataProvider= "unlistedproduct")
 	public void unlistedproduct (String unlistedproduct ) throws IOException, InterruptedException {
-		SearchElements se = new SearchElements(driver);
+		
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		se.SearchBar().clear();
 		se.SearchBar().sendKeys(unlistedproduct);

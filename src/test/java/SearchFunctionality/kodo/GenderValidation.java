@@ -21,11 +21,12 @@ import elementsList.SearchElements;
 
 public class GenderValidation extends Base {
 	String productContainer = "//div[@class='product-container']//div[2]//h5//a";
+	SearchElements se = new SearchElements(driver);
 	
 	@Test()     //expected to fail as count is different
 	public void womenDress() throws InterruptedException {
 		
-		SearchElements se = new SearchElements(driver);
+		
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		se.Dresses().click();
 		int itemcount = driver.findElements(By.xpath(productContainer)).size();

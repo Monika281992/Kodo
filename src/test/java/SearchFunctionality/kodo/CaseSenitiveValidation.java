@@ -4,6 +4,7 @@
 package SearchFunctionality.kodo;
 
 import org.testng.annotations.Test;
+
 import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
@@ -22,11 +23,11 @@ import elementsList.SearchElements;
 public class CaseSenitiveValidation extends Base {
 	
 String productContainer = "//div[@class='product-container']//div[2]//h5//a";
+SearchElements se = new SearchElements(driver);
 	
 	    // DRESSES   (Expected to fail as we have one item as t-shirt)
 		@Test
 		public void dresses () throws InterruptedException {
-			SearchElements se = new SearchElements(driver);
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			se.SearchBar().clear();
 			se.SearchBar().sendKeys("DRESSES");
@@ -45,7 +46,6 @@ String productContainer = "//div[@class='product-container']//div[2]//h5//a";
 		//T-shirts(Expected to pass)
 		@Test     
 		public void tshirts () throws InterruptedException {
-			SearchElements se = new SearchElements(driver);
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			se.SearchBar().clear();
 			se.SearchBar().sendKeys("t-shirts");

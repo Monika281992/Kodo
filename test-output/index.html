@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Default_suite">
-              <span class="suite-name border-failed">Default suite</span>
+              <span class="suite-name border-passed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods, 1 failed,   7 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Default_suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="SearchFunctionality.kodo.ProductCountValidation" hash-for-method="hoverAndEnterProduct">hoverAndEnterProduct</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Default_suite -->
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -116,37 +102,22 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="SearchFunctionality.kodo.ProductCountValidation" hash-for-method="clickDress">clickDress</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="SearchFunctionality.kodo.BasicSearchFunctionality" hash-for-method="blankSearchBar">blankSearchBar</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="SearchFunctionality.kodo.ProductCountValidation" hash-for-method="clickTShirts">clickTShirts</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="SearchFunctionality.kodo.BasicSearchFunctionality" hash-for-method="searchBarVisibility">searchBarVisibility</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="SearchFunctionality.kodo.ProductCountValidation" hash-for-method="clickWomen">clickWomen</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="SearchFunctionality.kodo.BasicSearchFunctionality" hash-for-method="searchButtonKeyboradValidation">searchButtonKeyboradValidation</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="SearchFunctionality.kodo.ProductCountValidation" hash-for-method="hoverDresses">hoverDresses</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="SearchFunctionality.kodo.ProductCountValidation" hash-for-method="hoverWomen">hoverWomen</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="SearchFunctionality.kodo.ProductCountValidation" hash-for-method="searchElement(T-shirts)">searchElement(T-shirts)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="SearchFunctionality.kodo.ProductCountValidation" hash-for-method="searchElement(Dress)">searchElement(Dress)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="SearchFunctionality.kodo.BasicSearchFunctionality" hash-for-method="searchButtonValidation">searchButtonValidation</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -161,113 +132,38 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">SearchFunctionality.kodo.ProductCountValidation</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="hoverAndEnterProduct">
-                  </a> <!-- hoverAndEnterProduct -->
-                  <span class="method-name">hoverAndEnterProduct</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected:&lt;5&gt; but was:&lt;0&gt;
-	at org.testng.AssertJUnit.fail(AssertJUnit.java:47)
-	at org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:330)
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:66)
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:213)
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:218)
-	at SearchFunctionality.kodo.ProductCountValidation.hoverAndEnterProduct(ProductCountValidation.java:136)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-	at org.testng.TestRunner.privateRun(TestRunner.java:766)
-	at org.testng.TestRunner.run(TestRunner.java:587)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-	at org.testng.TestNG.runSuites(TestNG.java:1039)
-	at org.testng.TestNG.run(TestNG.java:1007)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-failed -->
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">SearchFunctionality.kodo.ProductCountValidation</span>
+              <span class="class-name">SearchFunctionality.kodo.BasicSearchFunctionality</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="clickDress">
-                  </a> <!-- clickDress -->
-                  <span class="method-name">clickDress</span>
+                  <a name="blankSearchBar">
+                  </a> <!-- blankSearchBar -->
+                  <span class="method-name">blankSearchBar</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="clickTShirts">
-                  </a> <!-- clickTShirts -->
-                  <span class="method-name">clickTShirts</span>
+                  <a name="searchBarVisibility">
+                  </a> <!-- searchBarVisibility -->
+                  <span class="method-name">searchBarVisibility</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="clickWomen">
-                  </a> <!-- clickWomen -->
-                  <span class="method-name">clickWomen</span>
+                  <a name="searchButtonKeyboradValidation">
+                  </a> <!-- searchButtonKeyboradValidation -->
+                  <span class="method-name">searchButtonKeyboradValidation</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="hoverDresses">
-                  </a> <!-- hoverDresses -->
-                  <span class="method-name">hoverDresses</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="hoverWomen">
-                  </a> <!-- hoverWomen -->
-                  <span class="method-name">hoverWomen</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="searchElement(T-shirts)">
-                  </a> <!-- searchElement(T-shirts) -->
-                  <span class="method-name">searchElement</span>
-                  <span class="parameters">(T-shirts)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="searchElement(Dress)">
-                  </a> <!-- searchElement(Dress) -->
-                  <span class="method-name">searchElement</span>
-                  <span class="parameters">(Dress)</span>
+                  <a name="searchButtonValidation">
+                  </a> <!-- searchButtonValidation -->
+                  <span class="method-name">searchButtonValidation</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -275,7 +171,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/04/nztx3_6934x6b_q_ykyfb4y40000gn/T/testng-eclipse--1456787060/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/04/nztx3_6934x6b_q_ykyfb4y40000gn/T/testng-eclipse-413535649/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -284,7 +180,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;SearchFunctionality.kodo.ProductCountValidation&quot;/&gt;
+      &lt;class name=&quot;SearchFunctionality.kodo.BasicSearchFunctionality&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -324,44 +220,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(8);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'hoverAndEnterProduct')
-data.setCell(0, 2, 'SearchFunctionality.kodo.ProductCountValidation')
-data.setCell(0, 3, 43129);
+data.setCell(0, 1, 'searchButtonKeyboradValidation')
+data.setCell(0, 2, 'SearchFunctionality.kodo.BasicSearchFunctionality')
+data.setCell(0, 3, 3171);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'hoverDresses')
-data.setCell(1, 2, 'SearchFunctionality.kodo.ProductCountValidation')
-data.setCell(1, 3, 14363);
+data.setCell(1, 1, 'searchButtonValidation')
+data.setCell(1, 2, 'SearchFunctionality.kodo.BasicSearchFunctionality')
+data.setCell(1, 3, 1964);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'clickDress')
-data.setCell(2, 2, 'SearchFunctionality.kodo.ProductCountValidation')
-data.setCell(2, 3, 14070);
+data.setCell(2, 1, 'searchBarVisibility')
+data.setCell(2, 2, 'SearchFunctionality.kodo.BasicSearchFunctionality')
+data.setCell(2, 3, 144);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'hoverWomen')
-data.setCell(3, 2, 'SearchFunctionality.kodo.ProductCountValidation')
-data.setCell(3, 3, 12383);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'clickWomen')
-data.setCell(4, 2, 'SearchFunctionality.kodo.ProductCountValidation')
-data.setCell(4, 3, 10410);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'clickTShirts')
-data.setCell(5, 2, 'SearchFunctionality.kodo.ProductCountValidation')
-data.setCell(5, 3, 10270);
-data.setCell(6, 0, 6)
-data.setCell(6, 1, 'searchElement')
-data.setCell(6, 2, 'SearchFunctionality.kodo.ProductCountValidation')
-data.setCell(6, 3, 3217);
-data.setCell(7, 0, 7)
-data.setCell(7, 1, 'searchElement')
-data.setCell(7, 2, 'SearchFunctionality.kodo.ProductCountValidation')
-data.setCell(7, 3, 1687);
+data.setCell(3, 1, 'blankSearchBar')
+data.setCell(3, 2, 'SearchFunctionality.kodo.BasicSearchFunctionality')
+data.setCell(3, 3, 106);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -387,80 +267,30 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">SearchFunctionality.kodo.ProductCountValidation</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">SearchFunctionality.kodo.BasicSearchFunctionality</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">browserinitiate</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">clickDress</span>
-                <span class="method-start">11238 ms</span>
+                <span class="method-name">blankSearchBar</span>
+                <span class="method-start">18891 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterEachMethod</span>
-                <span class="method-start">25312 ms</span>
-              </div> <!-- configuration-method after -->
               <div class="test-method">
-                <span class="method-name">clickTShirts</span>
-                <span class="method-start">27321 ms</span>
+                <span class="method-name">searchBarVisibility</span>
+                <span class="method-start">19006 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterEachMethod</span>
-                <span class="method-start">37593 ms</span>
-              </div> <!-- configuration-method after -->
               <div class="test-method">
-                <span class="method-name">clickWomen</span>
-                <span class="method-start">39601 ms</span>
+                <span class="method-name">searchButtonKeyboradValidation</span>
+                <span class="method-start">19153 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterEachMethod</span>
-                <span class="method-start">50013 ms</span>
-              </div> <!-- configuration-method after -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">hoverAndEnterProduct</span>
-                <span class="method-start">52019 ms</span>
+                <span class="method-name">searchButtonValidation</span>
+                <span class="method-start">22327 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterEachMethod</span>
-                <span class="method-start">95161 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">hoverDresses</span>
-                <span class="method-start">97174 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterEachMethod</span>
-                <span class="method-start">111541 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">hoverWomen</span>
-                <span class="method-start">113545 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterEachMethod</span>
-                <span class="method-start">125930 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">searchElement(Dress)</span>
-                <span class="method-start">127958 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterEachMethod</span>
-                <span class="method-start">131178 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">searchElement(T-shirts)</span>
-                <span class="method-start">133182 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterEachMethod</span>
-                <span class="method-start">134872 ms</span>
-              </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">broserclose</span>
-                <span class="method-start">136883 ms</span>
+                <span class="method-start">24296 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

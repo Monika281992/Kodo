@@ -23,11 +23,12 @@ import org.testng.annotations.Test;
 import elementsList.SearchElements;
 
 public class ColourValidation extends Base {
+	SearchElements se = new SearchElements(driver);
 	
 	@Test(dataProvider = "colours")     //expected to pass
 	public void colour ( String colours) throws InterruptedException {
 		 String expectedalert = "No results were found for your search \"" + colours + "\"" ;
-			SearchElements se = new SearchElements(driver);
+			
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			se.SearchBar().clear();
 			se.SearchBar().sendKeys(colours);

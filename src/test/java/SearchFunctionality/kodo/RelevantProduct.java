@@ -24,11 +24,12 @@ import elementsList.SearchElements;
 
 public class RelevantProduct extends Base {
 	String productContainer = "//div[@class='product-container']//div[2]//h5//a";
+	SearchElements se = new SearchElements(driver);
 	
 	//when corrcet data entered
 	@Test(dataProvider= "correctName")
 	public void correctName (String correctName ) throws InterruptedException {
-		SearchElements se = new SearchElements(driver);
+		
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		se.SearchBar().clear();
 		se.SearchBar().sendKeys(correctName);

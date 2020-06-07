@@ -1,142 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="8" passed="7">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="137093" started-at="2020-06-02T10:41:01 IST" finished-at="2020-06-02T10:43:18 IST">
+  <suite name="Default suite" duration-ms="24668" started-at="2020-06-07T21:26:21 IST" finished-at="2020-06-07T21:26:45 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="137093" started-at="2020-06-02T10:41:01 IST" finished-at="2020-06-02T10:43:18 IST">
-      <class name="SearchFunctionality.kodo.ProductCountValidation">
-        <test-method status="PASS" signature="browserinitiate()[pri:0, instance:SearchFunctionality.kodo.ProductCountValidation@4ae9cfc1]" name="browserinitiate" is-config="true" duration-ms="11193" started-at="2020-06-02T10:41:01 IST" finished-at="2020-06-02T10:41:12 IST">
+    <test name="Default test" duration-ms="24668" started-at="2020-06-07T21:26:21 IST" finished-at="2020-06-07T21:26:45 IST">
+      <class name="SearchFunctionality.kodo.BasicSearchFunctionality">
+        <test-method status="PASS" signature="browserinitiate()[pri:0, instance:SearchFunctionality.kodo.BasicSearchFunctionality@38aa816f]" name="browserinitiate" is-config="true" duration-ms="18852" started-at="2020-06-07T21:26:21 IST" finished-at="2020-06-07T21:26:40 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserinitiate -->
-        <test-method status="PASS" signature="clickDress()[pri:0, instance:SearchFunctionality.kodo.ProductCountValidation@4ae9cfc1]" name="clickDress" duration-ms="14070" started-at="2020-06-02T10:41:12 IST" finished-at="2020-06-02T10:41:26 IST">
+        <test-method status="PASS" signature="blankSearchBar()[pri:0, instance:SearchFunctionality.kodo.BasicSearchFunctionality@38aa816f]" name="blankSearchBar" duration-ms="106" started-at="2020-06-07T21:26:40 IST" finished-at="2020-06-07T21:26:40 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickDress -->
-        <test-method status="PASS" signature="afterEachMethod()[pri:0, instance:SearchFunctionality.kodo.ProductCountValidation@4ae9cfc1]" name="afterEachMethod" is-config="true" duration-ms="2006" started-at="2020-06-02T10:41:26 IST" finished-at="2020-06-02T10:41:28 IST">
+        </test-method> <!-- blankSearchBar -->
+        <test-method status="PASS" signature="searchBarVisibility()[pri:0, instance:SearchFunctionality.kodo.BasicSearchFunctionality@38aa816f]" name="searchBarVisibility" duration-ms="144" started-at="2020-06-07T21:26:40 IST" finished-at="2020-06-07T21:26:40 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterEachMethod -->
-        <test-method status="PASS" signature="clickTShirts()[pri:0, instance:SearchFunctionality.kodo.ProductCountValidation@4ae9cfc1]" name="clickTShirts" duration-ms="10270" started-at="2020-06-02T10:41:28 IST" finished-at="2020-06-02T10:41:38 IST">
+        </test-method> <!-- searchBarVisibility -->
+        <test-method status="PASS" signature="searchButtonKeyboradValidation()[pri:0, instance:SearchFunctionality.kodo.BasicSearchFunctionality@38aa816f]" name="searchButtonKeyboradValidation" duration-ms="3171" started-at="2020-06-07T21:26:40 IST" finished-at="2020-06-07T21:26:43 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickTShirts -->
-        <test-method status="PASS" signature="afterEachMethod()[pri:0, instance:SearchFunctionality.kodo.ProductCountValidation@4ae9cfc1]" name="afterEachMethod" is-config="true" duration-ms="2006" started-at="2020-06-02T10:41:38 IST" finished-at="2020-06-02T10:41:40 IST">
+        </test-method> <!-- searchButtonKeyboradValidation -->
+        <test-method status="PASS" signature="searchButtonValidation()[pri:0, instance:SearchFunctionality.kodo.BasicSearchFunctionality@38aa816f]" name="searchButtonValidation" duration-ms="1964" started-at="2020-06-07T21:26:43 IST" finished-at="2020-06-07T21:26:45 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterEachMethod -->
-        <test-method status="PASS" signature="clickWomen()[pri:0, instance:SearchFunctionality.kodo.ProductCountValidation@4ae9cfc1]" name="clickWomen" duration-ms="10410" started-at="2020-06-02T10:41:40 IST" finished-at="2020-06-02T10:41:51 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickWomen -->
-        <test-method status="PASS" signature="afterEachMethod()[pri:0, instance:SearchFunctionality.kodo.ProductCountValidation@4ae9cfc1]" name="afterEachMethod" is-config="true" duration-ms="2005" started-at="2020-06-02T10:41:51 IST" finished-at="2020-06-02T10:41:53 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachMethod -->
-        <test-method status="FAIL" signature="hoverAndEnterProduct()[pri:0, instance:SearchFunctionality.kodo.ProductCountValidation@4ae9cfc1]" name="hoverAndEnterProduct" duration-ms="43129" started-at="2020-06-02T10:41:53 IST" finished-at="2020-06-02T10:42:36 IST">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected:<5> but was:<0>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected:<5> but was:<0>
-at org.testng.AssertJUnit.fail(AssertJUnit.java:47)
-at org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:330)
-at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:66)
-at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:213)
-at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:218)
-at SearchFunctionality.kodo.ProductCountValidation.hoverAndEnterProduct(ProductCountValidation.java:136)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- hoverAndEnterProduct -->
-        <test-method status="PASS" signature="afterEachMethod()[pri:0, instance:SearchFunctionality.kodo.ProductCountValidation@4ae9cfc1]" name="afterEachMethod" is-config="true" duration-ms="2006" started-at="2020-06-02T10:42:36 IST" finished-at="2020-06-02T10:42:38 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachMethod -->
-        <test-method status="PASS" signature="hoverDresses()[pri:0, instance:SearchFunctionality.kodo.ProductCountValidation@4ae9cfc1]" name="hoverDresses" duration-ms="14363" started-at="2020-06-02T10:42:38 IST" finished-at="2020-06-02T10:42:52 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- hoverDresses -->
-        <test-method status="PASS" signature="afterEachMethod()[pri:0, instance:SearchFunctionality.kodo.ProductCountValidation@4ae9cfc1]" name="afterEachMethod" is-config="true" duration-ms="2001" started-at="2020-06-02T10:42:52 IST" finished-at="2020-06-02T10:42:54 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachMethod -->
-        <test-method status="PASS" signature="hoverWomen()[pri:0, instance:SearchFunctionality.kodo.ProductCountValidation@4ae9cfc1]" name="hoverWomen" duration-ms="12383" started-at="2020-06-02T10:42:54 IST" finished-at="2020-06-02T10:43:07 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- hoverWomen -->
-        <test-method status="PASS" signature="afterEachMethod()[pri:0, instance:SearchFunctionality.kodo.ProductCountValidation@4ae9cfc1]" name="afterEachMethod" is-config="true" duration-ms="2006" started-at="2020-06-02T10:43:07 IST" finished-at="2020-06-02T10:43:09 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachMethod -->
-        <test-method status="PASS" signature="searchElement(java.lang.String)[pri:0, instance:SearchFunctionality.kodo.ProductCountValidation@4ae9cfc1]" name="searchElement" duration-ms="3217" started-at="2020-06-02T10:43:09 IST" data-provider="getdata" finished-at="2020-06-02T10:43:12 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Dress]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchElement -->
-        <test-method status="PASS" signature="afterEachMethod()[pri:0, instance:SearchFunctionality.kodo.ProductCountValidation@4ae9cfc1]" name="afterEachMethod" is-config="true" duration-ms="2004" started-at="2020-06-02T10:43:12 IST" finished-at="2020-06-02T10:43:14 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachMethod -->
-        <test-method status="PASS" signature="searchElement(java.lang.String)[pri:0, instance:SearchFunctionality.kodo.ProductCountValidation@4ae9cfc1]" name="searchElement" duration-ms="1687" started-at="2020-06-02T10:43:14 IST" data-provider="getdata" finished-at="2020-06-02T10:43:16 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[T-shirts]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchElement -->
-        <test-method status="PASS" signature="afterEachMethod()[pri:0, instance:SearchFunctionality.kodo.ProductCountValidation@4ae9cfc1]" name="afterEachMethod" is-config="true" duration-ms="2005" started-at="2020-06-02T10:43:16 IST" finished-at="2020-06-02T10:43:18 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachMethod -->
-        <test-method status="PASS" signature="broserclose()[pri:0, instance:SearchFunctionality.kodo.ProductCountValidation@4ae9cfc1]" name="broserclose" is-config="true" duration-ms="168" started-at="2020-06-02T10:43:18 IST" finished-at="2020-06-02T10:43:18 IST">
+        </test-method> <!-- searchButtonValidation -->
+        <test-method status="PASS" signature="broserclose()[pri:0, instance:SearchFunctionality.kodo.BasicSearchFunctionality@38aa816f]" name="broserclose" is-config="true" duration-ms="144" started-at="2020-06-07T21:26:45 IST" finished-at="2020-06-07T21:26:45 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- broserclose -->
-      </class> <!-- SearchFunctionality.kodo.ProductCountValidation -->
+      </class> <!-- SearchFunctionality.kodo.BasicSearchFunctionality -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

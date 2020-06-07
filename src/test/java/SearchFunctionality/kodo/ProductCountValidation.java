@@ -25,13 +25,13 @@ import elementsList.SearchElements;
 
 public class ProductCountValidation extends Base {
 	String productContainer = "//div[@class='product-container']//div[2]//h5//a";	
-	
+	SearchElements se = new SearchElements(driver);
 
 	//On one step click
 	
 	@Test 
 	public void clickWomen () throws InterruptedException  {
-		SearchElements se = new SearchElements(driver);
+		
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		se.Women().click();
 		int expectedCount = driver.findElements(By.xpath(productContainer)).size();

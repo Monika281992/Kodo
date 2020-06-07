@@ -24,11 +24,11 @@ import elementsList.SearchElements;
 public class SynonymsValidation extends Base{
 	
 String URL = "http://automationpractice.com/index.php"; 
-
+SearchElements se = new SearchElements(driver);
 	@Test(dataProvider= "synonyms")
 	public void validation (String synonyms) throws InterruptedException {
 		driver.get(URL);
-		SearchElements se = new SearchElements(driver);
+		
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		se.SearchBar().clear();
 		se.SearchBar().sendKeys(synonyms);
